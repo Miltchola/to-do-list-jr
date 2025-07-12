@@ -1,0 +1,49 @@
+.task-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  background: #f9f9f9;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  transition: background 0.2s;
+}
+
+.task-container:hover {
+  background: #f1f1f1;
+}
+
+.task-title {
+  flex: 1;
+  font-size: 1rem;
+  color: #222;
+  transition: color 0.2s;
+}
+
+.task-title.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.task-checkbox {
+  margin-right: 12px;
+  width: 18px;
+  height: 18px;
+  accent-color: #4caf50;
+}
+
+.task-delete-btn {
+  margin-left: 12px;
+  background: #ff5252;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+}
+
+.task-delete-btn:hover {
+  background: #d32f2f;
+}

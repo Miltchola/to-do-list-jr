@@ -1,0 +1,45 @@
+.tasklist-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tasklist-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.tasklist-content {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 300px;
+}
+
+.tasklist-section {
+  flex: 1;
+  min-width: 240px;
+  max-width: 340px;
+  padding: 0 8px;
+}
+
+@media (max-width: 900px) {
+  .app-container {
+    max-width: 98vw;
+    padding: 12px;
+  }
+  .tasklist-content {
+    flex-direction: column;
+    gap: 16px;
+    min-height: unset;
+  }
+  .tasklist-section {
+    max-width: 100%;
+    min-width: unset;
+    padding: 0;
+  }
+}
