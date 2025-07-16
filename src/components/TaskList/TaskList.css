@@ -36,6 +36,8 @@
     flex-direction: column;
     gap: 16px;
     min-height: unset;
+    align-items: center;
+    margin-bottom: 16px;
   }
   .tasklist-section {
     max-width: 100%;

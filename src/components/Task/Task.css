@@ -6,11 +6,11 @@
   background: #f9f9f9;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.04);
-  transition: background 0.2s;
+  transition: 0.2s all ease;
 }
 
 .task-container:hover {
-  background: #f1f1f1;
+  transform: scale(1.05);
 }
 
 .task-title {
@@ -41,9 +41,10 @@
   padding: 4px 10px;
   cursor: pointer;
   font-size: 0.95rem;
-  transition: background 0.2s;
+  transition: all 0.2s ease;
 }
 
 .task-delete-btn:hover {
   background: #d32f2f;
+  transform: scale(1.02);
 }

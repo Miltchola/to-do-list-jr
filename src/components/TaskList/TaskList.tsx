@@ -38,8 +38,10 @@ const TaskList: React.FC = () => {
 
   return (
     <div className="tasklist-container">
+
       <div className="tasklist-header">
         <div style={{ display: "flex", justifyContent: "center", marginBottom: 0 }}>
+          {/* Adição de tarefa */}
           <input
             type="text"
             value={newTask}
@@ -50,10 +52,11 @@ const TaskList: React.FC = () => {
           <button onClick={handleAddTask}>Adicionar</button>
         </div>
       </div>
+
       <div className="tasklist-content">
         <div className="tasklist-section">
           <h2 style={{ textAlign: "center", color: "#4caf50" }}>Pendentes</h2>
-          {/* Iguasl à seção de concluídos */}
+          {/* Igual à seção de concluídos */}
 
           {activeTasks.length === 0 && (
             <p style={{ color: "#888", textAlign: "center" }}>Nenhuma tarefa pendente</p>
@@ -70,6 +73,7 @@ const TaskList: React.FC = () => {
             />
           ))}
         </div>
+
         <div className="tasklist-section">
           <CompletedTask
             tasks={completedTasks}
@@ -77,6 +81,7 @@ const TaskList: React.FC = () => {
             onDelete={handleDelete}
           />
         </div>
+
       </div>
     </div>
   );
