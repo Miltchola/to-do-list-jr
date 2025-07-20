@@ -31,10 +31,10 @@ React.js
 
 TypeScript
 
-CSS (puro ou módulos)
+CSS
 
 ## 📌 Pré-requisitos
-Node.js instalado (versão LTS recomendada)
+Node.js instalado
 
 Feito por Milton Kiefer de Albuquerque Mello para a
 ## Capacitação da CIMATEC Jr.
