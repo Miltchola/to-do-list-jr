@@ -41,6 +41,7 @@ const TaskList: React.FC = () => {
 
       <div className="tasklist-header">
         <div style={{ display: "flex", justifyContent: "center", marginBottom: 0 }}>
+
           {/* Adição de tarefa */}
           <input
             type="text"
@@ -50,10 +51,12 @@ const TaskList: React.FC = () => {
             style={{ width: "60%", marginRight: 8, padding: 6, minWidth: 120 }}
           />
           <button onClick={handleAddTask}>Adicionar</button>
+
         </div>
       </div>
 
       <div className="tasklist-content">
+        
         <div className="tasklist-section">
           <h2 style={{ textAlign: "center", color: "#4caf50" }}>Pendentes</h2>
           {/* Igual à seção de concluídos */}

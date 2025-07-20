@@ -1,69 +1,42 @@
-# React + TypeScript + Vite
+# 📝 To-Do List App
+Uma aplicação de lista de tarefas feita com React.js, TypeScript e CSS, para ajudar a organizar suas atividades diárias.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Funcionalidades
+✔️ Adicionar novas tarefas
+✔️ Marcar tarefas como concluídas
+✔️ Remover tarefas da lista
+✔️ Filtros para exibir: todas, ativas ou concluídas
+✔️ Responsivo (funciona bem em mobile e desktop)
 
-Currently, two official plugins are available:
+## 🔧 Como Executar
+Clone o repositório:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+bash
+git clone https://github.com/seu-usuario/todo-list-react.git
+Instale as dependências:
 
-## Expanding the ESLint configuration
+bash
+npm install
+# ou
+yarn install
+Inicie o servidor de desenvolvimento:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+bash
+npm run dev
+# ou
+yarn dev
+Acesse no navegador:
+🔗 http://localhost:3000
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Tecnologias Usadas
+React.js
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+TypeScript
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+CSS (puro ou módulos)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📌 Pré-requisitos
+Node.js instalado (versão LTS recomendada)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Feito por Milton Kiefer de Albuquerque Mello para a
+## Capacitação da CIMATEC Jr.
