@@ -5,7 +5,7 @@ Uma aplicação de lista de tarefas feita com React.js, TypeScript e CSS, para a
 ✔️ Adicionar novas tarefas
 ✔️ Marcar tarefas como concluídas
 ✔️ Remover tarefas da lista
-✔️ Filtros para exibir: todas, ativas ou concluídas
+✔️ Exibição de tarefas organizadas: pendentes ou concluídas
 ✔️ Responsivo (funciona bem em mobile e desktop)
 
 ## 🔧 Como Executar
