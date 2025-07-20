@@ -38,3 +38,7 @@ Node.js instalado
 
 Feito por Milton Kiefer de Albuquerque Mello para a
 ## Capacitação da CIMATEC Jr.
+
+### Link para o Vídeo:
+https://drive.google.com/file/d/1Pq0CjiQC5XfvFdXKDsb-j7pSjIpEX3iB/view?usp=sharing
+
